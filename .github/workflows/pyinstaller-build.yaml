@@ -1,3 +1,6 @@
+name: Build Executable
+on: [push]
+
 jobs:
   pyinstaller-build:
     runs-on: windows-latest
